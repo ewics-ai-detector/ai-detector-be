@@ -20,5 +20,9 @@ install python dependencies
 simply run `make run` after completing prereqs above
 
 Example curl request
-`
+```
+curl -X POST -H "Content-Type: application/json" \
+-d '{"text": "This is a test sentence."}' \
+http://127.0.0.1:8000/predict
+```
 
